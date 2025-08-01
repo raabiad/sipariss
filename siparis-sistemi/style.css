@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #f78dc2;
+    text-align: center;
+}
+
+.urunler {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.urun {
+    background-color: #ffebf3;
+    border: 1px solid #ffb6c1;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.urun img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+.sepet {
+    background-color: #ffebf3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#sepet-listesi {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sepet-listesi li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #ffb6c1;
+}
